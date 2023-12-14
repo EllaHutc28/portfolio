@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <h2>Hello, <br> I'm Ella Hutchinson<br>Welcome to my Portfolio</h2>
+        <img src="./imgs/git.png" alt="portrait of me">
+    </section>
+
+    <section id="projects-heading">
+        <h3>Here are the projects I have done this semester</h3>
+        <p>Click on the surface cards to expand<br>and see the description and full image! </p>
+    </section>
+
+    <section id="projects">
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%201" class="project-link">Project 1</a>
+            <img src="./imgs/project1.png" alt="Project 1" class="project-image">
+            <p>Kahoot!</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%206%207%208/homework%20week%206" class="project-link">Project 2</a>
+            <img src="./imgs/project2.png" alt="Project 2" class="project-image">
+            <p>Recipes, Short story, and contact page</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%206%207%208/homework%20week%207" class="project-link">Project 3</a>
+            <img src="./imgs/project3.png" alt="Project 3" class="project-image">
+            <p>Recipes, Short story, and contact page with more colors</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%206%207%208/homework%20week%208" class="project-link">Project 4</a>
+            <img src="./imgs/project4.png" alt="Project 4" class="project-image">
+            <p>Recipes, Short story, and contact page with more colors and an email box added</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%20week%2010" class="project-link">Project 5</a>
+            <img src="./imgs/project5.png" alt="Project 5" class="project-image">
+            <p>This is a portrait of myself</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%20week%2011" class="project-link">Project 6</a>
+            <img src="./imgs/project6.png" alt="Project 6" class="project-image">
+            <p>Game to find the exit</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%20week%2012" class="project-link">Project 7</a>
+            <img src="./imgs/project7.png" alt="Project 7" class="project-image">
+            <p>Game to find the exit</p>
+        </div>
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/homework%20week%2014" class="project-link">Project 8</a>
+            <img src="./imgs/project8.png" alt="Project 8" class="project-image">
+            <p>Game to find the exit with larger obstacles</p>
+        </div> 
+        <div class="project-card" onclick="toggleCard(this)">
+            <a href="https://github.com/EllaHutc28/MART120-Homework/tree/main/week%204%20homework" class="project-link">Project 9</a>
+            <img src="./imgs/project9.png" alt="Project 9" class="project-image">
+            <p>Kahoot</p>
+        </div>
+    </section>
+
+    <script>
+        function toggleCard(card) {
+            card.classList.toggle('expanded');
+        }
+    </script>
+
+</body>
+</html>
